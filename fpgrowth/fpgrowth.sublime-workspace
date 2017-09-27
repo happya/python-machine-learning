@@ -1,0 +1,422 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"my",
+				"myheader"
+			],
+			[
+				"reu",
+				"return_tree"
+			],
+			[
+				"loca",
+				"localD"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"ini",
+				"init_set"
+			],
+			[
+				"cr",
+				"create_init_set"
+			],
+			[
+				"lo",
+				"load_simple_dataset"
+			],
+			[
+				"no",
+				"nodelink"
+			],
+			[
+				"nod",
+				"node_to_test"
+			],
+			[
+				"node",
+				"node_to_test"
+			],
+			[
+				"u",
+				"update_tree"
+			],
+			[
+				"tree",
+				"tree"
+			],
+			[
+				"fr",
+				"freq_item_set"
+			],
+			[
+				"ret",
+				"return_tree"
+			],
+			[
+				"h",
+				"header"
+			],
+			[
+				"tran",
+				"trans_set"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# Photovoltaic effect in few-layer black phosphorus PN junctions defined by local electrostatic gating\n\nhomojunction of few layer black P with spliting gates control\n1. electrostatic control of the charge carrier type in different regions of few-layer black P flake to tune the electronic behavior from metallic to diode-like, PN junction\n2. photovoltaic effect in locally gated PN junctions allow power generation for illumination wavelength up to 940 nm, attractvie for energy harvesting in the near-infrared\n\n\n# Polarization-sensitive broadband photodetector using a black phosphorus vertical p–n junction\n1. polarization sensitive from ~ 400 to 3750 nm\n2. sensitivity due to the strong intrinsic linear dichroism arising from the in-plane optical anisotropy\n3. perpendicular built-in electric field induced by gating can spatially separate the photogenerated electrons and holes in the channel\n4. \n\n",
+			"file": "/C/Users/yyi/Dropbox/black phosphorous/applications.md",
+			"file_size": 731,
+			"file_write_time": 131262918104855961,
+			"settings":
+			{
+				"buffer_size": 903,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "note.md",
+			"settings":
+			{
+				"buffer_size": 700,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/my.sublime-build",
+					""
+				],
+				[
+					"Packages/User/my.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/my.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 203.0,
+		"last_filter": "keys",
+		"selected_items":
+		[
+			[
+				"keys",
+				"Preferences: Key Bindings"
+			],
+			[
+				"key bin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			],
+			[
+				"pakage control",
+				"Package Control: Add Channel"
+			],
+			[
+				"pakage control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"package conto",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 880.0
+	},
+	"console":
+	{
+		"height": 280.0,
+		"history":
+		[
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/yyi/Dropbox/deep-learning/mach-learning/fpgrowth/test1.py",
+		"/C/Users/yyi/Dropbox/deep-learning/mach-learning/fpgrowth/fpgrowth.py",
+		"/C/Users/yyi/Dropbox/deep-learning/mach-learning/fpgrowth/note.md",
+		"/C/Users/yyi/Dropbox/deep-learning/mach-learning/fpgrowth/wifi indoor localization with graph-based and propogation model.md",
+		"/C/Users/yyi/Dropbox/deep-learning/mach-learning/fpgrowth/wifi indoor localization-two papers.md",
+		"/C/Users/yyi/Dropbox/deep-learning/mach-learning/fpgrowth/pan's paper.md",
+		"/C/Users/yyi/Dropbox/deep-learning/mach-learning/fpgrowth/wifi indoor localization-two papers_161206004124.html",
+		"/C/Users/yyi/OneDrive/Documents/wifi localization/pygmaps.py",
+		"/C/Users/yyi/AppData/Roaming/Sublime Text 3/Packages/User/Evernote.sublime-settings",
+		"/C/Users/yyi/Desktop/MATHJAX.DOWNLOADED",
+		"/C/Users/yyi/AppData/Roaming/Sublime Text 3/Packages/OmniMarkupPreviewer/OmniMarkupPreviewer.sublime-settings",
+		"/C/Users/yyi/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/C/Users/yyi/AppData/Roaming/Sublime Text 3/Packages/User/my.sublime-build",
+		"/C/Users/yyi/Dropbox/deep-learning/mach-learning/fpgrowth/test1.cpp",
+		"/C/Users/yyi/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/yyi/Dropbox/deep-learning/mach-learning/fpgrowth/fpgrowth.sublime-project"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}$",
+			"99ee0f23173407ce9cfefae4a6e0f26f",
+			"用来指向给定类型的第一个实例",
+			"local"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/yyi/Dropbox/black phosphorous/applications.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								901,
+								901
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "note.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 60.0
+	},
+	"input":
+	{
+		"height": 60.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 453.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "fpgrowth.sublime-project",
+	"replace":
+	{
+		"height": 84.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"fpgrowth.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
