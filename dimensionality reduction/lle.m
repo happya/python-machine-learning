@@ -110,11 +110,11 @@ end;
 
 options.disp = 0; options.isreal = 1; options.issym = 1;
 
-[Y,eigenvals] = eigs(M,d+1,0,options);
+[Y1,eigenvals] = eigs(M,d+1,0,options);
 
 %[Y,eigenvals] = jdqr(M,d+1);%change in using JQDR func
 
-Y = Y(:,2:d+1)'*sqrt(N); % bottom evect is [1,1,1,1...] with eval 0
+Y = Y1(:,2:d+1)'*sqrt(N); % bottom evect is [1,1,1,1...] with eval 0
 
 fprintf(1,'Done.\n');
 

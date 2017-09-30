@@ -2,7 +2,7 @@
 this is a test file for k-means clustering
 '''
 
-
+from __future__ import division
 import numpy as np
 from kMeans import *
 
@@ -10,8 +10,8 @@ from kMeans import *
 dataMat = loadDataSet('testSet2.txt')
 
 
-# centroids, clusterAsses = kMeans(dataMat, 4, distMeas=distEclud, createCent=randCent)
-centroids, clusterAsses = biKmeans(dataMat, 3, distMeas=distEclud)
+centroids, clusterAsses = kMeans(dataMat, 4, distMeas=distEclud, createCent=randCent)
+#centroids, clusterAsses = biKmeans(dataMat, 3, distMeas=distEclud)
 # print centroids
 fig = plt.figure()
 plt.style.use('ggplot')

@@ -28,4 +28,4 @@ title('Original data');
 subplot(1,2,2)
 scatter(Y(:,1),Y(:,2)+1,20,cmap)
 ylim([-0.1 0.1])
-title('LE embedding')
+title('LLE embedding')

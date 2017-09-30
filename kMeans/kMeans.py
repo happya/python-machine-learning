@@ -25,9 +25,10 @@ def randCent(dataMat, k):
     n = np.shape(dataMat)[1]
     centroids = np.mat(np.zeros((k, n)))
     for j in range(n):
-        minJ = np.min(dataMat[:, j])
-        maxJ = np.max(dataMat[:, j])
-        rangeJ = float((maxJ - minJ))
+        minJ = np.amin(dataMat[:, j])
+        maxJ = np.amax(dataMat[:, j])
+        # rangeJ = float((maxJ - minJ))
+        rangeJ = maxJ - minJ
         centroids[:, j] = np.mat(minJ + rangeJ * np.random.rand(k, 1))
     return centroids
 
