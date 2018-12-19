@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # linear Regression
 
 Datesets: $D=\{(x_1,y_1),...(x_m,y_m)\}$
