@@ -1,7 +1,6 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # linear Regression
 
-Datesets: $D=\{(x_1,y_1),...(x_m,y_m)\}$
+Dataset: $D=\{(x_1,y_1),...(x_m,y_m)\}$
 
 prediction: $\hat y= wx_i+b$
 
@@ -109,12 +108,11 @@ By projecting the dataset to a line $w$, then the projection centers are $w^T\mu
 - To maximize the projected distance between different classes, we can maximize the center distance (maximize $||w^T\mu_0-w^T\mu_1||^2$) 
 
 Considering both goals, we can set :
-$$J=\frac{||w^T\mu_0-w^T\mu_1||^2}{w^T\Sigma_0 w+w^T\Sigma_1 w}\\
-=\frac{w^T(\mu_0-\mu_1)(\mu_0-\mu_1)^Tw}{w^T(\Sigma_0+\Sigma_1)w}\tag{3}$$
+
+$$J=\frac{||w^T\mu_0-w^T\mu_1||^2}{w^T\Sigma_0 w+w^T\Sigma_1 w}=\frac{w^T(\mu_0-\mu_1)(\mu_0-\mu_1)^Tw}{w^T(\Sigma_0+\Sigma_1)w}\tag{3}$$
 
 Hence, we can define the within-class scatter matrix:
-$$S_w=\Sigma_0+\Sigma_1\\
-=\sum_{x \in X_0}(x-\mu_0)(x-\mu_0)^T+\sum_{x \in X_1}(x-\mu_1)(x-\mu_1)^T$$
+$$S_w=\Sigma_0+\Sigma_1=\sum_{x \in X_0}(x-\mu_0)(x-\mu_0)^T+\sum_{x \in X_1}(x-\mu_1)(x-\mu_1)^T$$
 and between-class scatter matrix
 $$S_b=(\mu_0-\mu_1)(\mu_0-\mu_1)^T$$
 
@@ -127,3 +125,4 @@ we assume $S_b w = \lambda (\mu_0-\mu_1)$.
 
 With (4), with can obtain:
 $$w=S_w^{-1}(\mu_0-\mu_1)$$
+
